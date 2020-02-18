@@ -1,0 +1,17 @@
+section.about {
+  margin-top: 5em;
+
+  .title {
+    span {
+      font-weight: 500;
+      color: var(--colorSecondary);
+    }
+    h1 {
+      color: #000;
+    }
+  }
+
+  strong {
+    font-weight: 500;
+  }
+}

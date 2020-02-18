@@ -1,0 +1,49 @@
+section.posts {
+  margin-top: 5em;
+
+  .title {
+    span {
+      font-weight: 500;
+      color: var(--colorSecondary);
+    }
+    h1 {
+      color: var(--colorPrimary);
+    }
+  }
+
+  .button {
+    float: right;
+    margin-top: 10px;
+  }
+
+  .post {
+    margin-top: 3em;
+
+    .post-img {
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 240px;
+      max-width: 100%;
+      margin-bottom: 2em;
+      border-radius: 5px;
+    }
+
+    a {
+      color: #000;
+    }
+
+    h3 {
+      margin: 0em;
+      width: 100%;
+      overflow: hidden;
+      display: inline-block;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    span {
+      color: var(--colorSecondary);
+      font-weight: 400;
+      font-size: 14px;
+    }
+  }
+}

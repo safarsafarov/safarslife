@@ -1,0 +1,37 @@
+a.social {
+  font-family: 'Poppins';
+
+  letter-spacing: 0.5px;
+  line-height: 2;
+
+  text-decoration: none;
+
+  color: var(--colorPrimary);
+
+  &:first-child {
+    margin-right: 30px;
+  }
+
+  > svg {
+    fill: var(--colorPrimary);
+    margin-right: 5px;
+    vertical-align: text-bottom !important;
+    transition-duration: 0.2s;
+  }
+
+  &:hover {
+    > svg {
+      transform: scale(1.1);
+    }
+  }
+}
+
+.socials-lighted {
+  a.social {
+    color: var(--colorSecondary) !important;
+
+    > svg {
+      fill: var(--colorSecondary);
+    }
+  }
+}

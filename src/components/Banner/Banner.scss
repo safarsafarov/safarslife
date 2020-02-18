@@ -1,0 +1,42 @@
+.banner {
+  margin-top: 2em;
+  margin-bottom: 7em;
+  width: 100%;
+
+  h1 {
+    margin-top: 5em;
+  }
+
+  img {
+    border-radius: 5px;
+  }
+
+  .socials-darked {
+    margin-top: 1em;
+  }
+
+  .button {
+    margin-top: 2em;
+    margin-bottom: 1em;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .banner h1 {
+    margin-top: 3em;
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .banner img,
+  .dots-banner {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .banner h1 {
+    font-size: 27px;
+  }
+}
